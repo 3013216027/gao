@@ -37,5 +37,5 @@
 
 ---
 ##**作者**
-- 天津大学计算机学院2013级1班 郑冬健
-- 邮箱: *zhengdongjian@tju.edu.cn*
+- 个人主页: [Qyetfu](http://zhengdongjian.xyz)
+- 邮箱: [zhengdongjian@tju.edu.cn](mailto:zhengdongjian@tju.edu.cn)
