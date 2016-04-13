@@ -1,5 +1,5 @@
 # 软工实习--最近点对计算器v1.0功能说明
-
+![]https://travis-ci.org/3013216027/gao.svg?branch=master
 ---
 
 ##**界面介绍**
