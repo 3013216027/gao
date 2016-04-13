@@ -1,3 +1,8 @@
 language: cpp
-install: make get-deps
-compiler: gcc
+install:
+    - sudo apt-get update
+    - sudo apt-get install libqt4-dev
+script:
+    - qmake -project
+    - qmake hello.pro
+    - make

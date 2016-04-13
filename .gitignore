@@ -26,3 +26,10 @@
 #*.exe
 *.out
 *.app
+gao
+
+# moc files
+moc_*
+
+# makefiles
+Makefile
