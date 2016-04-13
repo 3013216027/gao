@@ -19,7 +19,7 @@ FORMS	+= mainwindow.ui settingnumberdialog.ui settingrangedialog.ui \
     inputdialog.ui
 
 #Enable std-c++11/gnu-c++11 option
-QMAKE_CXXFLAGS += -std=c++11
+QMAKE_CXXFLAGS += -std=gnu++11
 #CONFIG += debug_and_release
 
 #DEBUG
