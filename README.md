@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/3013216027/gao.svg?branch=master)](https://travis-ci.org/3013216027/gao)
+[![Build Status](https://travis-ci.org/3013216027/gao.svg?branch=master)](https://travis-ci.org/3013216027/gao) [![docs lastest](https://readthedocs.org/projects/gao/badge/?version=latest)](http://gao.readthedocs.org/en/latest/?badge=latest)
 # 软工实习--最近点对计算器v1.0功能说明 
 ---
 
