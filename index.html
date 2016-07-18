@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Gao by 3013216027</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Gao</h1>
+      <h2 class="project-tagline">JBer&#39;s C++ Excecise</h2>
+      <a href="https://github.com/3013216027/gao" class="btn">View on GitHub</a>
+      <a href="https://github.com/3013216027/gao/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/3013216027/gao/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p><a href="https://travis-ci.org/3013216027/gao"><img src="https://travis-ci.org/3013216027/gao.svg?branch=master" alt="Build Status"></a> <a href="http://gao.readthedocs.org/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/gao/badge/?version=latest" alt="docs lastest"></a></p>
+
+<h1>
+<a id="软工实习--最近点对计算器v10" class="anchor" href="#%E8%BD%AF%E5%B7%A5%E5%AE%9E%E4%B9%A0--%E6%9C%80%E8%BF%91%E7%82%B9%E5%AF%B9%E8%AE%A1%E7%AE%97%E5%99%A8v10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>软工实习--最近点对计算器v1.0</h1>
+
+<p><img src="https://raw.githubusercontent.com/3013216027/3013216027.github.io/master/storage/test.gif" alt=""></p>
+
+<hr>
+
+<h2>
+<a id="下载" class="anchor" href="#%E4%B8%8B%E8%BD%BD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>下载</strong>
+</h2>
+
+<ul>
+<li><a href="https://github.com/3013216027/gao/releases/download/1.0/gao.exe">Release Download</a></li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="界面介绍" class="anchor" href="#%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>界面介绍</strong>
+</h2>
+
+<ul>
+<li>绘图框：用作绘图，坐标轴用于划分平面4个象限</li>
+<li>操作栏
+
+<ul>
+<li>放大、缩小、重置大小：用于调整绘图窗口的放缩，方便观察</li>
+<li>生成数据：功能同<code>功能-生成随机点</code>
+</li>
+<li>计算：功能同<code>功能-计算最近点对</code>
+</li>
+</ul>
+</li>
+<li>进度条：勾选<code>开启进度条</code>选框可开启进度条，在生成数据和计算最近点对时可以提供良好的用户体验，直观地显示程序的运行进度。尤其当点数量相当多时，进度条可以达到较好的辅助显示效果。</li>
+<li>状态栏：在生成数据、计算最近点对、数据导入/导出等完成后，辅助报告运行结果，提供一些对用户有帮助的辅助信息。</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="菜单功能介绍" class="anchor" href="#%E8%8F%9C%E5%8D%95%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>菜单功能介绍</strong>
+</h2>
+
+<h4>
+<a id="文件" class="anchor" href="#%E6%96%87%E4%BB%B6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>文件</strong>
+</h4>
+
+<ul>
+<li>手动输入：可直接手动输入点坐标，具有自检功能，能对不合法的输入（如只有一个点，坐标输入不完整，异常字符等）作相应处理</li>
+<li>导入
+
+<ul>
+<li>导入文本数据：可导入普通文本格式保存的坐标数据，适合较小规模数据的保存、修改和访问。可处理异常字符、坐标数据不完整(如某个点只有横坐标没有纵坐标)、点数量不足2个等异常情况。</li>
+<li>导入二进制数据：可导入二进制格式保存的坐标数据，适合大规模数据的保存、分享(相比普通文本可节省约10\%的数据文件占用的磁盘空间)</li>
+</ul>
+</li>
+<li>保存
+
+<ul>
+<li>保存为文本：可导出当前点为文本数据，适合少量数据的保存，占用磁盘空间大。程序初始化会随机一小部分点，因此在程序启动后直接保存数据亦可成功。</li>
+<li>保存为二进制数据：可导出当前点为二进制数据，适合大量数据的保存，占用磁盘空间相对较小。</li>
+</ul>
+</li>
+<li>退出：退出程序</li>
+</ul>
+
+<h4>
+<a id="功能" class="anchor" href="#%E5%8A%9F%E8%83%BD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>功能</strong>
+</h4>
+
+<ul>
+<li>生成随机点：根据<code>设置</code>中关于点的坐标范围和点的数量的限制，随机生成满足条件的相应数量的点，并自动完成绘制。随机生成点时会自动根据坐标范围和点数量的限制作做合法性检查。</li>
+<li>计算最近点对：计算最近点对并在图中标识，当两点距离较大，差别较明显时，程序直接用红线和红点标识结果；当两点距离很小时，程序会自动添加一个圈以标识结果，方便观察。结果会同步地在状态栏显示。</li>
+</ul>
+
+<h4>
+<a id="设置" class="anchor" href="#%E8%AE%BE%E7%BD%AE" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>设置</strong>
+</h4>
+
+<ul>
+<li>点的数量：设置欲生成的点的数量</li>
+<li>坐标范围：设置欲生成的点的坐标范围</li>
+</ul>
+
+<h4>
+<a id="帮助" class="anchor" href="#%E5%B8%AE%E5%8A%A9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>帮助</strong>
+</h4>
+
+<ul>
+<li>关于本软件：介绍软件功能和作者</li>
+<li>关于QT：介绍QT，本软件使用QT5.3.2编写。兼容QT5其他版本，向下兼容QT4。</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="作者" class="anchor" href="#%E4%BD%9C%E8%80%85" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>作者</strong>
+</h2>
+
+<ul>
+<li>个人主页: <a href="http://zhengdongjian.xyz">Qyetfu</a>
+</li>
+<li>邮箱: <a href="mailto:zhengdongjian@tju.edu.cn">zhengdongjian@tju.edu.cn</a>
+</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/3013216027/gao">Gao</a> is maintained by <a href="https://github.com/3013216027">3013216027</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
