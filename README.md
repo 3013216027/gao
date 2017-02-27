@@ -44,5 +44,5 @@
 
 ---
 ##**作者**
-- 个人主页: [Qyetfu](http://zhengdongjian.xyz)
+- 个人主页: [Qyetfu](http://qyetfu.site)
 - 邮箱: [zhengdongjian@tju.edu.cn](mailto:zhengdongjian@tju.edu.cn)
